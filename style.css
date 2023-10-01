@@ -1,0 +1,255 @@
+@import url('https://fonts.googlepis.com/css2?family=Fira+sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(223, 218, 218);
+    height: 100vh;
+    font-family: ' Fira sans', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    padding: 33px 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main {
+    /* background-color:; */
+    width: 90vw;
+    /* padding: 0px  0px; */
+
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: pink; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devpic img {
+    width: 381px;
+    height: 58vh;
+}
+
+
+.hello {
+    font-size: 65px;
+}
+
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 38px;
+}
+
+.resume {
+    margin-top: 9px;
+    font-size: 28px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    margin: 0 3px;
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+
+/* contact.html */
+.contactform {
+    background-color: rgb(187, 237, 247);
+    font-family: ' Fira sans', sans-serif;
+    padding: 50px 34px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contactform form div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0px 0px 0px;
+    padding: 3px;
+}
+
+
+.contactform h1 {
+    text-align: center;
+    padding: 12 0px;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+    justify-items: center;
+}
+
+#form-check input {
+    width: 19px;
+    margin: 3px opx;
+}
+
+.contactform form button {
+    margin: 4 3px;
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contactform form button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+/* projects.html */
+
+.projectinfo {
+    background-color: rgb(255 165 141);
+    height: 100vh;
+    width: 100vh;
+}
+
+.projectinfo h1 {
+    text-align: center;
+}
+
+.project1 {
+    padding: auto;
+    background-color: white;
+    margin: 50px 153px;
+    height: 25vh;
+}
+
+.project2 {
+    background-color: white;
+    margin: 50px 153px;
+    height: 25vh;
+}
+
+.projectinfo h2 {
+    text-align: center;
+}
+
+ul {
+    padding: 0px 10px;
+}
+
+li {
+    padding: 20px 6px
+}
+
+/* about.html */
+
+.aboutcontainer{
+    background-color: rgb(233 233 188);
+    height: 100vh;
+    width: 100vw;
+}
+.aboutcontainer h1{
+    text-align: center;
+}
+.intro {
+    padding: 20px 20px;
+    height: 50vh;
+    background-color: white;
+    margin: 50px 67px;
+    font-family: ' Fira sans', sans-serif;
+
+}
+.intro  p {
+    padding: 20px 5px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 145px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+@media (max-width:980px) {
+
+    .devpic{
+        display: none;
+    }
+    
+/* .sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+} */
+}
