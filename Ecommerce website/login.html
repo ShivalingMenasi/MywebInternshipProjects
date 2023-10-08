@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products | Ecommers Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <!-- <img src="images\logo.png" width="125"> -->
+                    <h2>STORE.</h2>
+                </div>
+                <nav>
+                    <ul id="Menuitems">
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="/product.html">PRODUTS</a></li>
+                        <li><a href="/contact.html">CONTACT</a></li>
+                        <li><a href="/login.html">LOGIN</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30" height="30" alt="cart"></a>
+                <img src="images/menu.png" class="menu" onclick="menutoggle()">
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="body">
+        <div class="loginform">
+            <input type="checkbox" id="check">
+            <div class="login form">
+              <header>Login</header>
+              <form action="#">
+                <input type="text" placeholder="Enter your email">
+                <input type="password" placeholder="Enter your password">
+                <a href="#">Forgot password?</a>
+                <input type="button" class="button" value="Login">
+              </form>
+              <div class="signup">
+                <span class="signup">Don't have an account?
+                 <label for="check">Signup</label>
+                </span>
+              </div>
+            </div>
+            <div class="registration form">
+              <header>Signup</header>
+              <form action="#">
+                <input type="text" placeholder="Enter your email">
+                <input type="password" placeholder="Create a password">
+                <input type="password" placeholder="Confirm your password">
+                <input type="button" class="button" value="Signup">
+              </form>
+              <div class="signup">
+                <span class="signup">Already have an account?
+                 <label for="check">Login</label>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </main>
+
+
+    <!-- ------ footer ------- -->
+
+    <footer>
+        <div class="footer">
+            <div class="cantainer">
+                <div class="row">
+                    <div class="footer-col1">
+                        <h2>STORE.</h2>
+                        <p> out purpose is to be become sustainable sports accessary brand</p>
+                    </div>
+                    <div class="footer-col2">
+                        <h3>useful links</h3>
+                        <ul>
+                            <li> coupns</li>
+                            <li>Blog post</li>
+                            <li>policy</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col3">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twittert</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

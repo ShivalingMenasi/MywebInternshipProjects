@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.navbar {
+    /* background-color: rgb(147, 133, 133); */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+.navbar h2 {
+    color: red;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px 20px;
+    margin-top: 60px;
+}
+
+.col2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col2 img {
+    max-width: 100%;
+    padding: 50px 0px;
+
+}
+
+.col2 h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(216, 91, 19);
+    color: rgb(48, 45, 45);
+    padding: 8px 20px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: ease-in 0.5s;
+}
+
+.btn:hover {
+    background: #5a6bcf;
+}
+
+/* ------------- categories ----------- */
+.categories {
+    margin: 70px 0px;
+}
+
+.col3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col3 img {
+    width: 100%;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding: 0px 25px;
+}
+
+.small-container h2 {
+    text-align: center;
+}
+
+.col4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: ease-in 0.5s;
+}
+
+.col4 img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    padding: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+
+.title::after {
+    content: '';
+    background: rgb(216, 91, 19);
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    font-weight: normal;
+    color: #0a0909;
+}
+
+.col4 p {
+    font-size: 14px;
+}
+
+.col4:hover {
+    transform: translatey(-5px);
+}
+
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 50px;
+    padding: 30px 0px;
+}
+
+.col2 .offer-image {
+    padding: 50px;
+}
+
+/* ------brands ----- */
+
+brands {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col5 {
+    width: 160px;
+}
+
+.col5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col5 img:hover {
+    filter: grayscale(0%);
+}
+
+.footer {
+    background-color: #000;
+    columns: #8a8a8a;
+    font-size: 14px;
+    padding: 16px;
+}
+
+.footer p {
+    margin: 10px 0px;
+    color: #8a8a8a;
+}
+
+.footer li {
+    margin: 20px;
+    color: #8a8a8a;
+}
+
+.footer h2 {
+    color: #e56018;
+    font-size: 29px;
+
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col1 {
+    flex: 30%;
+    min-width: 230px;
+}
+
+.footer-col2,
+.footer-col3 {
+    min-width: 230px;
+    flex-basis: 20%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+/* --------product .html----------- */
+
+.row2 {
+    justify-content: space-around;
+    margin: 100px auto 50px;
+}
+
+select {
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.product-btn {
+    margin: 0px auto 80px;
+    text-align: center;
+}
+
+.product-btn span {
+    display: inline-block;
+    border: 1px solid #ed1f33;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    padding: auto;
+}
+
+.product-btn span:hover {
+    background-color: #e56018;
+}
+
+
+
+
+
+/* -------- media-query-------- */
+
+@media only screen and (max-width: 760px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-Height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        /* margin: 10px 50px 10px ; */
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    nav a {
+        color: #fff;
+    }
+
+
+    .menu {
+        display: block;
+        cursor: pointer;
+
+    }
+}
+
+
+/* ---------- single product ---------- */
+
+.redshirt {
+    cursor: pointer;
+}
+
+.singleproduct {
+    margin-top: 80px;
+}
+
+.singleproduct .col2 img {
+    padding: 0px;
+}
+
+.singleproduct .col2 {
+    padding: 20px;
+
+}
+
+.singleproduct h4 {
+    margin: 20px 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.singleproduct input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+
+input:focus {
+    outline: none;
+}
+
+.smallimagerow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallimagecol {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+/* cart */
+
+.cartpage {
+    margin: 80px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cartinfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: #ff523b;
+    font-style: 12px;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.Contactform {
+    background: radial-gradient(#fff, #ff988a);
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 100px;
+}
+
+.Contactform h1 {
+    margin: 0px 20px;
+    text-align: center;
+}
+
+/* login or singup */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.body{
+  min-height: 100vh;
+  width: 100%;
+  background: radial-gradient(#fff, #ff988a);
+
+}
+.loginform{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.loginform .registration{
+  display: none;
+}
+#check:checked ~ .registration{
+  display: block;
+}
+#check:checked ~ .login{
+  display: none;
+}
+#check{
+  display: none;
+}
+.container .form{
+  padding: 2rem;
+}
+.form header{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+ .form input{
+   height: 60px;
+   width: 100%;
+   padding: 0 15px;
+   font-size: 17px;
+   margin-bottom: 1.3rem;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   outline: none;
+ }
+ .form input:focus{
+   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+ }
+.form a{
+  font-size: 16px;
+  color: #009579;
+  text-decoration: none;
+}
+.form a:hover{
+  text-decoration: underline;
+}
+.form input.button{
+  color: #fff;
+  background: #de877b;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.form input.button:hover{
+  background: #dedfd4;
+}
+.signup{
+  font-size: 17px;
+  text-align: center;
+}
+.signup label{
+  color: #f78872;
+  cursor: pointer;
+}
+.signup label:hover{
+  text-decoration: underline;
+}
