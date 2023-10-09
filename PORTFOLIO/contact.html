@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar sidebarGo">
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      <div class="hamburger">
+        <img class="ham"   src="ham.png" alt=""width="23">
+        <img class="cross"    src="cross.png" alt=""width="23">
+    </div>
+      <div class="contactform">
+        <h1>Contact me for general enquiries</h1>
+        <form>
+          <div class="mb-3">
+            <label for="clientname" class="form-label">User name</label>
+            <input type="text" class="form-control" id="clientname">
+          </div>
+          <div class="mb-3">
+            <label for="clientemail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="clientphone" class="form-label">Phone</label>
+            <input type="phone" class="form-control" id="clientphone">
+          </div>
+          <div class="mb-3">
+            <label for="clientname" class="form-label">Enquirie</label>
+            <input type="text" class="form-control" id="clientname">
+          </div>
+          <div class="mb-3" id="form-check">
+            <input type="checkbox" class="form-check-input" id="clientcheck">
+            <label class="form-check-label" for="clientcheck">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
