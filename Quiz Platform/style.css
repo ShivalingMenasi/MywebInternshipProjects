@@ -1,0 +1,412 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(#fff, hsl(34, 100%, 73%));
+   
+}
+
+
+.navbar {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: rgb(255, 106, 0);
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    color: #ff670b;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+
+#description{
+    /* background-color: #ccc; */
+    padding:100px;
+    margin-left: 20%;
+    margin: center;
+ 
+}
+
+#description p{
+    font-size: 20px;
+    color: #000000;
+}
+
+.smallcontainer {
+    margin: 100px;
+}
+
+#discription{
+    font-size: 20px;
+     max-width: 750px;
+     margin: 0  auto;
+     color: rgb(6, 1, 1);
+
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.btn1 {
+    
+    display: inline-block;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #e67512;
+    border: 1px solid #000000;
+    font-weight: 600;
+    border-radius: 130px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 55px;
+    /* width: 180px; */
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    padding: 19px 40px;
+  }
+
+  .but{
+    margin-left: 30%;
+  }
+  
+/* ------------  play.html ------------ */
+
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  form button {
+    color: #fff;
+    background-color: #ff670b;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+  .options li,
+  .scoreTxt,
+  .score {
+    color: #ff670b;
+  }
+
+  .ques,
+.btn,
+.btn2 {
+  color: #e7821d;
+}
+.ques,
+.btn,
+.btn2 {
+  color: #e18522;
+}
+
+.hi{
+    background-color: #ffff;
+}
+
+
+.options li,
+.QuestionBox {
+  font-size: 15px;
+}
+
+
+.options li,
+.ques {
+  border-radius: 10px;
+}
+
+.btn,
+.btn2 {
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  height: 40px;
+  width: 130px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  height: 100px;
+  width: 100vw;
+  padding-top: 25px;
+}
+
+.timer {
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.options li,
+.QuestionBox {
+  width: 600px;
+}
+
+.options li,
+.ques {
+  padding-left: 30px;
+}
+
+.options li {
+  box-shadow: 1px 1px 1px 0px #ff670b;
+  height: 50px;
+  border: 2px solid #ff670b;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  accent-color: rgb(207, 92, 4);
+}
+
+.QuestionBox {
+  height: 400px;
+}
+
+.options,
+.btn,
+.btn2 {
+  margin-top: 5%;
+}
+
+.ques {
+  padding-top: 20px;
+  margin-top: 8%;
+  height: 70px;
+}
+
+.btn {
+  margin-left: 78%;
+}
+
+ul {
+  list-style: none;
+}
+
+.scoreSection {
+  visibility: hidden;
+}
+
+.scoreSection,
+.QuestionBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.score,
+.ques {
+  font-weight: bold;
+}
+
+#leaderboardSection {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#leaderboardSection h2{
+  word-spacing: 5px;
+  color: #121212;
+}
+#leaderboardSection table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#leaderboardSection table,
+th,
+td {
+  border: 1px solid #ff670b;
+  color: #121212;
+}
+
+#leaderboardSection th,
+#leaderboardSection td {
+  padding: 10px;
+}
+
+#leaderboardSection th {
+  background-color: #ff670b;
+  color: #fff;
+}
+
+#leaderboardSection tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#leaderboardSection tr:hover {
+  background-color: #ddd;
+}
+
+#leaderboardSection button {
+  color: #fff;
+  background-color: #ff670b;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  height: 40px;
+  width: 30%;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ------------- contact form ------------ */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.Contactform {
+    background: radial-gradient(#fff, #ff988a);
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 100px;
+}
+
+.Contactform h1 {
+    margin: 0px 20px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 425px) {
+    html,
+    body {
+      width: 100% !important;
+      overflow-x: hidden !important;
+    }
+    .QuestionBox,
+    .options li {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .btn {
+      margin-left: 68%;
+    }
+    .btn1 {
+      width: 100%;
+    }
+    form {
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .QuestionBox,
+    .options li {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .btn {
+      margin-left: 58%;
+    }
+    .btn1 {
+      width: 100%;
+    }
+  
+    form {
+      width: 90%;
+    }
+  }
